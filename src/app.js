@@ -48,7 +48,7 @@ try {
 //Progression 3 - Filter players that debuted in ___ year
 const filterByDebut=(year)=>{
   return players.filter(ply=>{
-     return ply.debut===year;
+     return ply.debut==year;
   })
 }
 
